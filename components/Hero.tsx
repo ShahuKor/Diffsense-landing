@@ -1,19 +1,9 @@
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden px-10 py-16 sm:px-15 sm:py-24 md:px-35 md:py-32  ">
+    <section className="relative overflow-hidden px-10 py-8 sm:px-15 sm:py-24 md:px-20 md:py-32  ">
       <div
         aria-hidden
         className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_80%_50%_at_50%_-5%,rgba(139,92,246,0.13)_0%,transparent_70%)]"
-      />
-      <div
-        aria-hidden
-        className="absolute hidden md:block left-6 top-0 h-full border-l border-dashed border-white/10 sm:left-10 md:left-14"
-      />
-
-      {/* Right dashed line */}
-      <div
-        aria-hidden
-        className="absolute hidden md:block right-6 top-0 h-full border-l border-dashed border-white/10 sm:right-10 md:right-14"
       />
 
       <div
@@ -25,7 +15,7 @@ export default function Hero() {
         <h1 className="text-[2rem] font-black leading-[1.07] tracking-tight text-white sm:text-4xl md:text-5xl lg:text-[3.5rem]">
           AI Code Reviews That{" "}
           <span className="text-white">Learn Your Standards</span> —{" "}
-          <span className="[-webkit-text-stroke:1px_rgba(167,139,250,0.65)] text-transparent">
+          <span className="bg-linear-to-t from-[#693cf2a6] via-neutral-200 to-white bg-clip-text text-transparent">
             Deploy Anywhere.
           </span>
         </h1>
