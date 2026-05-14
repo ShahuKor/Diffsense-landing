@@ -1,5 +1,6 @@
 import { Container } from "@/components/Container";
 import Hero from "@/components/Hero";
+import HowItWorks from "@/components/HowItWorks";
 import Navbar from "@/components/Navbar";
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
         />
         <Navbar />
         <Hero />
+        <HowItWorks />
       </Container>
     </div>
   );

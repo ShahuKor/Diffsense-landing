@@ -28,9 +28,14 @@ export default function Hero() {
         </p>
 
         <div className="flex flex-col gap-3 sm:flex-row sm:gap-5">
-          <button className="group relative border border-white bg-white px-6 py-3.5 text-[9px] font-semibold uppercase tracking-widest text-black transition-colors duration-150 hover:bg-black hover:text-white sm:py-3 sm:text-[10px]">
-            How It Works
-          </button>
+          <a
+            href="#how-it-works
+          "
+          >
+            <button className="group relative border border-white bg-white px-6 py-3.5 text-[9px] font-semibold uppercase tracking-widest text-black transition-colors duration-150 hover:bg-black hover:text-white sm:py-3 sm:text-[10px]">
+              How It Works
+            </button>
+          </a>
 
           <button className="group border border-white/20 bg-transparent px-6 py-3.5 text-[9px] font-semibold uppercase tracking-widest text-white/60 transition-colors duration-150 hover:border-white/50 hover:text-white sm:py-3 sm:text-[10px]">
             Self-Host
