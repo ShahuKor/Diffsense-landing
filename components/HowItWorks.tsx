@@ -91,10 +91,10 @@ export default function HowItWorks() {
           {steps.map((step) => (
             <div
               key={step.number}
-              className="group relative flex flex-col border border-dashed border-white/10"
+              className="group relative flex flex-col border border-dashed border-white/30"
             >
-              <div className="flex flex-1 flex-col gap-5 p-6 sm:p-8 lg:p-6">
-                <span className="font-mono text-[0.65rem] font-semibold tracking-widest text-white/20">
+              <div className="flex flex-1 flex-col gap-5 p-6 sm:p-8 lg:p-6 ">
+                <span className="font-mono text-[0.65rem] font-semibold tracking-widest text-white/40">
                   {step.number}
                 </span>
                 <div className="flex items-center">

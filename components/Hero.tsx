@@ -3,7 +3,7 @@ export default function Hero() {
     <section className="relative overflow-hidden px-10 py-8 sm:px-15 sm:py-24 md:px-20 md:py-32  ">
       <div
         aria-hidden
-        className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_80%_50%_at_50%_-5%,rgba(139,92,246,0.13)_0%,transparent_70%)]"
+        className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_90%_60%_at_50%_-10%,rgba(139,92,246,0.28)_0%,transparent_75%)]"
       />
 
       <div
