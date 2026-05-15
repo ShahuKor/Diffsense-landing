@@ -2,7 +2,9 @@ import { Container } from "@/components/Container";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import HowItWorks from "@/components/HowItWorks";
+import HowTheReviewLooks from "@/components/HowTheReviewLooks";
 import Navbar from "@/components/Navbar";
+import SelfHost from "@/components/SelfHost";
 
 export default function Home() {
   return (
@@ -21,6 +23,8 @@ export default function Home() {
         <Hero />
         <HowItWorks />
         <Features />
+        <HowTheReviewLooks />
+        <SelfHost />
       </Container>
     </div>
   );

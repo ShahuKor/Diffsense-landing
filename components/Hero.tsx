@@ -36,13 +36,14 @@ export default function Hero() {
               How It Works
             </button>
           </a>
-
-          <button className="group border border-white/20 bg-transparent px-6 py-3.5 text-[9px] font-semibold uppercase tracking-widest text-white/60 transition-colors duration-150 hover:border-white/50 hover:text-white sm:py-3 sm:text-[10px]">
-            Self-Host
-            <span className="ml-2 inline-block transition-transform duration-150 group-hover:translate-x-0.5">
-              →
-            </span>
-          </button>
+          <a href="#self-host">
+            <button className="group border border-white/20 bg-transparent px-6 py-3.5 text-[9px] font-semibold uppercase tracking-widest text-white/60 transition-colors duration-150 hover:border-white/50 hover:text-white sm:py-3 sm:text-[10px]">
+              Self-Host
+              <span className="ml-2 inline-block transition-transform duration-150 group-hover:translate-x-0.5">
+                →
+              </span>
+            </button>
+          </a>
         </div>
       </div>
     </section>

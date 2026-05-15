@@ -5,7 +5,6 @@ import {
   RiToolsLine,
   RiDatabase2Line,
   RiLoopRightLine,
-  RiShieldCheckLine,
 } from "react-icons/ri";
 
 function CardCorners() {
@@ -71,6 +70,8 @@ export default function Features() {
       id="features"
       className="relative px-10 py-16 sm:px-15 sm:py-24 bg-[#0e0d0d]"
     >
+      <div className="pointer-events-none absolute -top-8 right-0 left-0 h-px border-t border-dashed border-white/30 sm:top-0" />
+      <div className="pointer-events-none absolute right-0 -bottom-8 left-0 h-px border-b border-dashed border-white/30 sm:bottom-0" />
       <div className="mb-16 sm:mb-20 ">
         <h2 className="text-2xl font-black tracking-tight text-white sm:text-3xl md:text-4xl">
           Built for teams that take{" "}
