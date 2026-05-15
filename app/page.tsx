@@ -1,5 +1,6 @@
 import { Container } from "@/components/Container";
 import Features from "@/components/Features";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import HowItWorks from "@/components/HowItWorks";
 import HowTheReviewLooks from "@/components/HowTheReviewLooks";
@@ -25,6 +26,7 @@ export default function Home() {
         <Features />
         <HowTheReviewLooks />
         <SelfHost />
+        <Footer />
       </Container>
     </div>
   );
